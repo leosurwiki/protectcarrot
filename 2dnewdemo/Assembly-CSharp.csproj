@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{7AC7E2D5-77A3-ACAC-59F5-8BEF5E2BBD38}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_2;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\FingerGestures Samples\1) Finger Events\Scripts\FingerEventsSamplePart1.cs" />
+     <Compile Include="Assets\FingerGestures Samples\1) Finger Events\Scripts\FingerEventsSamplePart2.cs" />
+     <Compile Include="Assets\FingerGestures Samples\2) Gestures\Scripts\BasicGesturesSample.cs" />
+     <Compile Include="Assets\FingerGestures Samples\2) Gestures\Scripts\PinchTwistSample.cs" />
+     <Compile Include="Assets\FingerGestures Samples\2) Gestures\Scripts\PointCloudGestureRenderer.cs" />
+     <Compile Include="Assets\FingerGestures Samples\2) Gestures\Scripts\PointCloudGestureSample.cs" />
+     <Compile Include="Assets\FingerGestures Samples\3) Toolbox\Scripts\DragTrail.cs" />
+     <Compile Include="Assets\FingerGestures Samples\3) Toolbox\Scripts\EmitParticlesOnSwipe.cs" />
+     <Compile Include="Assets\FingerGestures Samples\3) Toolbox\Scripts\ToolboxDragSample.cs" />
+     <Compile Include="Assets\FingerGestures Samples\3) Toolbox\Scripts\ToolboxFingerEventsSample.cs" />
+     <Compile Include="Assets\FingerGestures Samples\3) Toolbox\Scripts\ToolboxOneFingerGestureSample.cs" />
+     <Compile Include="Assets\FingerGestures Samples\Assets\Scripts\BasicSample.cs" />
+     <Compile Include="Assets\FingerGestures Samples\Assets\Scripts\EmitParticles.cs" />
+     <Compile Include="Assets\FingerGestures Samples\Assets\Scripts\MaxFPS.cs" />
+     <Compile Include="Assets\FingerGestures Samples\Assets\Scripts\MenuNode.cs" />
+     <Compile Include="Assets\FingerGestures Samples\Assets\Scripts\SampleBase.cs" />
+     <Compile Include="Assets\FingerGestures Samples\Assets\Scripts\SampleUI.cs" />
+     <Compile Include="Assets\FingerGestures Samples\Assets\Scripts\StartMenu.cs" />
+     <Compile Include="Assets\FingerGestures Samples\Assets\Scripts\SwipeParticlesEmitter.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIBody.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIContacts.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIFixture.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIJoint.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIParticleGroups.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIParticleSystems.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIParticles.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIRaycast.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIShape.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIUtility.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIWorld.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\PolygonDecomposerAPI.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\DataStructs\LPContact.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\DataStructs\LPRayCastHit.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\AccelerateBody.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\AgeDrawer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\BoxSpawner.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\ChangeAtRuntime.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Contactstester.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\DeleteOnBodyContact.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\DestroyWhenHit.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Dissolver.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\ExplodeonBodyContacts.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Follow.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\GoUpandDown.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Melter.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Mine.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\OilandWater.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\OilandWater2.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\RayCastTest.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Reactor.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\SetPoly.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Shooter.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Shotgun.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\StartStopAimer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\StopAfterSeconds.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\TestUserData.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\VelocityDrawer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Waterfall.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\WeightDrawer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\spawnafterwait.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\sprinkler.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Fixtures\LPFixture.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Fixtures\LPFixtureBox.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Fixtures\LPFixtureChainShape.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Fixtures\LPFixtureCircle.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Fixtures\LPFixturePoly.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJoint.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointDistance.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointFriction.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointGear.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointMouse.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointPrismatic.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointPulley.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointRevolute.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointRope.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointWeld.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointWheel.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPBody.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPColors.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPContactListener.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPCorporeal.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPEnums.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPManager.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPParticleGroupMaterial.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPParticleMaterial.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPParticleSystem.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPThing.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ParticleDrawingScripts\FoamWeightDrawer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ParticleDrawingScripts\LPDrawParticleSystem.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ParticleDrawingScripts\ThreeColorFoamWeightDrawer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ParticleDrawingScripts\WeightAndColorDrawer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Particles\LPParticleGroup.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Particles\LPParticleGroupBox.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Particles\LPParticleGroupCircle.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Particles\LPParticleGroupPoly.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\DeleteBodyOnContact.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPAimer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPBodyAccelerator.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPParticleAccelerator.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPParticleDestroyer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPParticleSpawner.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPPrefabSpawner.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPRayCaster.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPSpawner.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPTarget.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\MouseJointTarget.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\RaycasterPoint.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\counter.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\countercolor.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Shapes\LPShapeCircle.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Shapes\LPShapeTools.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\Button.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\CarCamPan.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\FPScounter.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\GoBetweenScenes.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\MoveLadle.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\Movemanipulator.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\PartButton.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\TestBedManager.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\TouchManager.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\sprayacid.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\tapmine.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\taptogglepump.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\taptogglespawner.cs" />
+     <None Include="Assets\LiquidPhysics2D\Licenses\LiquidFun License.txt" />
+     <None Include="Assets\Plugins\FingerGestures\Readme.txt" />
+     <None Include="Assets\LiquidPhysics2D\Documentation\LiquidPhysics2D_Documentation.txt" />
+     <None Include="Assets\LiquidPhysics2D\Art\Shaders\MetaballShader.shader" />
+     <None Include="Assets\LiquidPhysics2D\Licenses\Liquid Physics 2D License .txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{06B6E973-0F61-62C7-0F67-AEF382A6EABC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
